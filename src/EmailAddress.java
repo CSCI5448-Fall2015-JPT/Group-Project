@@ -1,16 +1,16 @@
 
 public class EmailAddress {
 
-	//! username
-	private String m_username;
+	//! user name
+	private String username;
 
 	//! domain name
-	private String m_domainName;
+	private String domainName;
 
 	/**
-	 * Create a new EmailAddress object with the given username and domainName
+	 * Create a new EmailAddress object with the given user name and domainName
 	 *
-	 * @param username The username
+	 * @param username The user name
 	 * @param domainName The domain name
 	 * @return An instance of EmailAddress
 	 */
@@ -20,22 +20,22 @@ public class EmailAddress {
 	}
 
 	/**
-	 * Set the username
+	 * Set the user name
 	 *
-	 * @param username The username
+	 * @param username The user name
 	 * @return None
 	 */
 	public void setUsername(String username) {
-		m_username = username;
+		this.username = username;
 	}
 
 	/**
-	 * Get the username
+	 * Get the user name
 	 *
-	 * @return The username
+	 * @return The user name
 	 */
 	public String getUsername() {
-		return m_username;
+		return username;
 	}
 
 	/**
@@ -45,7 +45,7 @@ public class EmailAddress {
 	 * @return None
 	 */
 	public void setDomainName(String domainName) {
-		m_domainName = domainName;
+		this.domainName = domainName;
 	}
 
 	/**
@@ -54,7 +54,7 @@ public class EmailAddress {
 	 * @return The domain name
 	 */
 	public String getDomainName() {
-		return m_domainName;
+		return domainName;
 	}
 
 	/**
