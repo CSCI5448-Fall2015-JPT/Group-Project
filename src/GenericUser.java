@@ -24,6 +24,7 @@ public class GenericUser {
 	 * @param emailAddress The user's e-mail address
 	 * @param firstName The user's first name
 	 * @param lastName The user's last name
+	 * @return An instance of Generic User
 	 */
 	public GenericUser(EmailAddress emailAddress, String firstName, String lastName) {
 		setEmailAddress(emailAddress);
