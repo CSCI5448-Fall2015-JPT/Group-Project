@@ -1,3 +1,6 @@
 ~*
 *.vpp~*
 tardis-box database.mwb.bak
+.project
+.classpath
+bin
