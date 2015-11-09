@@ -8,6 +8,7 @@ public class Format {
 	Float additionalCost;
 
 	public Format(String description, Float additionalCost) {
+		super();
 		setDescription(description);
 		setAdditionalCost(additionalCost);
 	}

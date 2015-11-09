@@ -1,7 +1,7 @@
 
 public class Book extends Media {
 
-	//! the international standard book number
+	//! the International Standard Book Number
 	String ISBN;
 
 	//! author first name

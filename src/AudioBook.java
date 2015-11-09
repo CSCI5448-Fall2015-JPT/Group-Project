@@ -1,5 +1,5 @@
 
-public class AudioBook extends Media{
+public class AudioBook extends Media {
 
 	//! The format of the audio book
 	Format format;
@@ -16,7 +16,6 @@ public class AudioBook extends Media{
 	 * @return An instance of AudioBook
 	 */
 	AudioBook(String title, Float rating, String pictureFilename, String description, Integer copies, String id) {
-
 		super(title, rating, pictureFilename, description, copies, id);
 	}
 

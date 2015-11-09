@@ -31,6 +31,7 @@ public class Media {
 	 * @return An instance of Media
 	 */
 	Media(String title, Float rating, String pictureFilename, String description, Integer copies, String id) {
+		super();
 		setTitle(title);
 		setRating(rating);
 		setPictureFilename(pictureFilename);

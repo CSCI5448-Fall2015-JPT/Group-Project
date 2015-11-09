@@ -21,6 +21,7 @@ public class WaitListMedia {
 	 * @param member The member that's waiting
 	 * @param status The starting status of the item
 	 * @param expectedAvailability The expected availability date
+	 * @return An instance of WaitListMedia
 	 */
 	public WaitListMedia(Media media, Member member, String status, Date expectedAvailability) {
 		super();
